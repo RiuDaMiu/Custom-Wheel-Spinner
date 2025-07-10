@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Custom Wheel Spinner </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1> Custom Wheel Spinner </h1>
+<p> By: Ria Patel </p>
+
+<br>
+<hr style="width: 100%; border: none; border-top: 2px solid #DEE2E3;">
+<div style="display: flex;">
+<br><br><br><br>
+<br><br><br><br>
+
+<div class="container">
+  <br>
+  <br>
+  <br>
+    <canvas id="wheel" width="300px" height="300px"></canvas>
+  <br>
+  <br>
+  <br>
+    <button id="spin-btn"> Spin </button>
+  <br>
+  <br>
+  <br>
+    <img src="https://i.postimg.cc/zfT4LFNy/down-Arrow.png" class="arrow" id="arrowImage" />
+    
+    <img src="https://i.postimg.cc/nVS8vyLT/smiley-Face.png" class="smile" id="waitImage" />
+      </div>
+
+<br><br><br><br>
+
+<div class="container2">
+<h2> Directions </h2>
+<p style="text-align: left;"> This app is designed to intake all of your different options into account and make a random decision. There are up to 6 slots on the wheel in which can be uploaded from the area to the right. Click the -Put Them on the Wheel!- button to add the different options to the wheel. Then click the -Spin- button to spin the wheel and discover the winning option. Good Luck! </p>
+<br>
+<h2> Tips and Tricks: </h2>
+<p style="text-align: left;"> 1. If you have 2 or 3 options, repeat them in order to reach the end.
+<br>
+2. If there are 4 or 5 options, meaning there are 1 or 2 empty slots, treat them as a -spin again- area, or simply name them -spin again-.
+<br>
+3. Please keep in mind the size of the text when inputed, abbreviation is recommended.
+</p>
+</div>
+
+
+<div class="floatRight">
+<br><br><br><br>
+<br>
+
+  <label for="userInputOne">Option 1:</label>
+  <input type="text" id="userInputOne" />
+  <br><br>
+
+  <label for="userInputTwo">Option 2:</label>
+  <input type="text" id="userInputTwo" />
+  <br><br>
+
+  <label for="userInputThree">Option 3:</label>
+  <input type="text" id="userInputThree" />
+  <br><br>
+
+  <label for="userInputFour">Option 4:</label>
+  <input type="text" id="userInputFour" />
+  <br><br>
+
+  <label for="userInputFive">Option 5:</label>
+  <input type="text" id="userInputFive" />
+  <br><br>
+
+  <label for="userInputSix">Option 6:</label>
+  <input type="text" id="userInputSix" />
+  <br><br>
+
+  <div style="display: flex;">
+    <button onclick="onTheWheel()"> Put Them on the Wheel! </button>
+
+  </div>
+
+</div>
+
+</div>
+<hr style="width: 100%; border: none; border-top: 2px solid #DEE2E3;">
+
+<br><br><br><br>
+
+
+
+
+<!-- Script -->
+
+  <script src="script.js"></script>
+</body>
+</html>
 
